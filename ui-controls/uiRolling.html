@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/bootUI.css" />
+    <!-- 依赖库 手机调试的js引用顺序如下 -->
+    <script src="../js/jquery-1.12.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/app/common.js"></script>
+    <style>
+    </style>
+</head>
+<body>
+    <div class="bootui_roll rolling_panel" id="roll">
+    	<div class="rollBox">
+    		<div class="roll_title">
+    			<a href="javascript:void(0);">菜单栏</a>
+    		</div>
+    		<div id="rollingBox" class="roll_content">
+    			<div class="rollArea">
+    				<div id="rollingBox1">
+    					<ul></ul>
+    				</div>
+    				<div id="rollingBox2"></div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <script src="../js/app/bootui.js"></script>
+    <script>
+        var uiRolling = bootui.roll({
+        	url: "../json/rolling.json", //请求地址，必填
+        	id: "#roll", //父元素ID，必填
+        	template: template,
+        });
+
+        function template(data) {
+        	var html = "";
+        	for (var i = 0; i < data.length; i++) {
+        		html += '<li><a href="' + data[i].rollingLink + '" >' + data[i].rollingText + '</a></li>';
+        	}
+        	return html;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+	"success": true,
+	"valid": true,
+	"message": "",
+	"data": {
+		"carouselLogo": "../images/4.jpg",
+		"pictureList": [{
+			"caption": "测试内容1",
+			"imageUrl": "../images/1.jpg",
+			"title": "测试标题1",
+			"linkUrl": "http://www.baidu.com",
+			"linkType": "new"
+		}, {
+			"caption": "测试内容2",
+			"imageUrl": "../images/2.jpg",
+			"title": "测试标题2",
+			"linkUrl": "http://www.baidu.com",
+			"linkType": "new"
+		}, {
+			"caption": "测试内容3",
+			"imageUrl": "../images/3.jpg",
+			"title": "测试标题3",
+			"linkUrl": "http://www.baidu.com",
+			"linkType": "current"
+		}]
+	}
+}

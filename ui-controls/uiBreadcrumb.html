@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/bootUI.css" />
+    <!-- 依赖库 手机调试的js引用顺序如下 -->
+    <script src="../js/jquery-1.12.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/app/common.js"></script>
+</head>
+<body>
+    <div class="breadcrumb_panel" id="breadcrumb">
+    	
+    </div>
+    <script src="../js/app/breadcrumb.js"></script>
+    <script>
+        var uiBreadcrumb = breadcrumb({
+        	id: "#breadcrumb", //必填
+        	height: "35", //选填，默认35px
+        	width: "0", //选填，默认1000px
+        	introduce: "您当前所在的位置：", //选填，默认"您当前所在的位置："
+        	link: ['#', '#', ''], //必填，按照从根级目录首页到最低级目录的顺序填写，当前页面(最低级目录)的link设置为空=>''
+        	text: ['首页', '信息公开', '领导之窗'], //必填，一一对应link的顺序
+        	currentClick: false //当前位置是否可点击，默认为否
+        });
+    </script>
+</body>
+</html>

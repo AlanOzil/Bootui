@@ -1,0 +1,26 @@
+{
+	"success": true,
+	"valid": true,
+	"message": "",
+	"data": [{
+		"content": "湛钢报关实现全流程自动化",
+		"linkUrl": "http://www.baidu.com",
+		"linkType": "new"
+	},{
+		"content": "高标准建设湛江铁路西站站房项目",
+		"linkUrl": "http://www.baidu.com",
+		"linkType": "current"
+	},{
+		"content": "钢铁项目安置小区景棠市场投入使用",
+		"linkUrl": "http://www.baidu.com",
+		"linkType": "current"
+	},{
+		"content": "南方路跨线桥工程有序推进 预计8月底实施完成",
+		"linkUrl": "http://www.baidu.com",
+		"linkType": "current"
+	},{
+		"content": "市政府第十四届8次常委会议召开",
+		"linkUrl": "http://www.baidu.com",
+		"linkType": "current"
+	}]
+}

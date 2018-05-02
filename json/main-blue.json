@@ -1,0 +1,534 @@
+{
+	"success": true,
+	"valid": true,
+	"message": "",
+	"data": [{
+		"id": "nav",
+		"name": "导航栏",
+		"title": "导航栏",
+		"config": true,
+		"body": {
+			"id": "navigator",
+			"dataSource": "json/nav.json",
+			"queryCondition": {}
+		},
+		"children": {}
+	}, {
+		"id": "tabs",
+		"name": "图片轮播",
+		"title": "图片轮播",
+		"config": true,
+		"body": {
+			"id": "",
+			"dataSource": "json/tabs-test.json",
+			"queryCondition": {}
+		},
+		"children": {}
+	}, {
+		"id": "notice",
+		"name": "通知",
+		"title": "通知",
+		"config": true,
+		"body": {
+			"id": "notice_body",
+			"dataSource": "json/list-test.json",
+			"queryCondition": {},
+			"page": 1,
+			"pageSize": 5
+		},
+		"children": {}
+	}, {
+		"id": "panel1",
+		"name": "左上面板",
+		"config": true,
+		"header": {
+			"title": "发展计划",
+			"linkUrl": "http://www.baidu.com",
+			"linkType": "current"
+		},
+		"body": {
+			"id": "list1",
+			"dataSource": "json/list-test.json",
+			"queryCondition": {},
+			"imageUrl": "images/5.jpg",
+			"linkUrl": "http://www.baidu.com",
+			"linkType": "new",
+			"page": 1,
+			"pageSize": 5
+		},
+		"children": {}
+	}, {
+		"id": "panel2",
+		"name": "右上面板",
+		"config": true,
+		"header": {
+			"title": "产业动态",
+			"linkUrl": "http://www.baidu.com",
+			"linkType": "current"
+		},
+		"body": {
+			"id": "list2",
+			"dataSource": "json/list-test.json",
+			"queryCondition": {},
+			"imageUrl": "images/5.jpg",
+			"linkUrl": "http://www.baidu.com",
+			"linkType": "new",
+			"page": 1,
+			"pageSize": 5
+		},
+		"children": {}
+	}, {
+		"id": "panel3",
+		"name": "左下面板",
+		"config": true,
+		"header": {
+			"title": "区县动态",
+			"linkUrl": "http://www.baidu.com",
+			"linkType": "new"
+		},
+		"body": {
+			"id": "list3",
+			"dataSource": "json/list-test.json",
+			"queryCondition": {},
+			"imageUrl": "images/5.jpg",
+			"linkUrl": "http://www.baidu.com",
+			"linkType": "new",
+			"page": 1,
+			"pageSize": 5
+		},
+		"children": {}
+	}, {
+		"id": "panel4",
+		"name": "右下面板",
+		"config": true,
+		"header": {
+			"title": "重点项目",
+			"linkUrl": "http://www.baidu.com",
+			"linkType": "current"
+		},
+		"body": {
+			"id": "list4",
+			"dataSource": "json/list-test.json",
+			"queryCondition": {},
+			"imageUrl": "",
+			"linkUrl": "http://www.baidu.com",
+			"linkType": "new",
+			"page": 1,
+			"pageSize": 5
+		},
+		"children": {}
+	}, {
+		"id": "serviceHall",
+		"name": "网上办事大厅图片链接",
+		"title": "网上办事大厅图片链接",
+		"config": true,
+		"body": {
+			"imageUrl": "images/2.png",
+			"linkUrl": "http://www.baidu.com",
+			"linkType": "new",
+			"page": 1,
+			"pageSize": 5
+		},
+		"children": {}
+	}, {
+		"id": "side_news",
+		"name": "侧边栏新闻",
+		"title": "侧边栏新闻",
+		"config": true,
+		"body": {
+		},
+		"children": [{
+			"id": "tab1",
+			"name": "第一个选项卡",
+			"title": "",
+			"config": true,
+			"header": {
+				"title": "湛江要闻"
+			},
+			"body": {
+				"id": "tab1_body",
+				"dataSource": "json/list-test.json",
+				"queryCondition": {},
+				"page": 1,
+				"pageSize": 5
+			},
+			"children": {}
+		}, {
+			"id": "tab2",
+			"name": "第二个选项卡",
+			"title": "",
+			"config": true,
+			"header": {
+				"title": "工作动态"
+			},
+			"body": {
+				"id": "tab2_body",
+				"dataSource": "json/list-test.json",
+				"queryCondition": {},
+				"page": 1,
+				"pageSize": 5
+			},
+			"children": {}
+		}, {
+			"id": "tab3",
+			"name": "第三个选项卡",
+			"title": "",
+			"config": true,
+			"header": {
+				"title": "机关党建"
+			},
+			"body": {
+				"id": "tab3_body",
+				"dataSource": "json/list-test.json",
+				"queryCondition": {},
+				"page": 1,
+				"pageSize": 5
+			},
+			"children": {}
+		}]
+	}, {
+		"id": "gov_info",
+		"name": "政务信息模块",
+		"title": "政务信息模块",
+		"config": true,
+		"header": {
+			"title": "信息公开",
+			"linkUrl": "http://www.baidu.com",
+			"linkType": "current"
+		},
+		"body": {
+			"id": "list5",
+			"dataSource": "json/list-test.json",
+			"queryCondition": {},
+			"page": 1,
+			"pageSize": 5
+		},
+		"children": {}
+	}, {
+		"id": "banner",
+		"name": "图片轮播",
+		"title": "图片轮播",
+		"config": true,
+		"header": {
+			"title": "信息公开",
+			"linkUrl": "http://www.baidu.com",
+			"linkType": "current"
+		},
+		"body": {
+			"id": "banner_body",
+			"dataSource": "json/banner-test.json",
+			"queryCondition": {}
+		},
+		"children": {}
+	}, {
+		"id": "linkArea",
+		"name": "链接区域",
+		"title": "链接区域",
+		"config": true,
+		"body": {
+		},
+		"children": [{
+			"id": "linkArea_item1",
+			"name": "链接区域1",
+			"title": "链接区域1",
+			"config": true,
+			"header": {
+				"title": "",
+				"linkUrl": "",
+				"linkType": ""
+			},
+			"body": {
+				"id": "",
+				"dataSource": "",
+				"queryCondition": {},
+				"imageUrl": "images/1.jpg",
+				"linkUrl": "http://www.baidu.com",
+				"linkType": "new",
+				"page": "",
+				"pageSize": ""
+			},
+			"children": {}
+		}, {
+			"id": "linkArea_item2",
+			"name": "链接区域2",
+			"title": "链接区域2",
+			"config": true,
+			"header": {
+				"title": "",
+				"linkUrl": "",
+				"linkType": ""
+			},
+			"body": {
+				"id": "",
+				"dataSource": "",
+				"queryCondition": {},
+				"imageUrl": "images/2.jpg",
+				"linkUrl": "http://www.baidu.com",
+				"linkType": "new",
+				"page": "",
+				"pageSize": ""
+			},
+			"children": {}
+		}, {
+			"id": "linkArea_item3",
+			"name": "链接区域3",
+			"title": "链接区域3",
+			"config": true,
+			"header": {
+				"title": "",
+				"linkUrl": "",
+				"linkType": ""
+			},
+			"body": {
+				"id": "",
+				"dataSource": "",
+				"queryCondition": {},
+				"imageUrl": "images/3.jpg",
+				"linkUrl": "http://www.baidu.com",
+				"linkType": "new",
+				"page": "",
+				"pageSize": ""
+			},
+			"children": {}
+		}, {
+			"id": "linkArea_item4",
+			"name": "链接区域4",
+			"title": "链接区域4",
+			"config": true,
+			"header": {
+				"title": "",
+				"linkUrl": "",
+				"linkType": ""
+			},
+			"body": {
+				"id": "",
+				"dataSource": "",
+				"queryCondition": {},
+				"imageUrl": "images/1.jpg",
+				"linkUrl": "http://www.baidu.com",
+				"linkType": "new",
+				"page": "",
+				"pageSize": ""
+			},
+			"children": {}
+		}, {
+			"id": "linkArea_item5",
+			"name": "链接区域5",
+			"title": "链接区域5",
+			"config": true,
+			"header": {
+				"title": "",
+				"linkUrl": "",
+				"linkType": ""
+			},
+			"body": {
+				"id": "",
+				"dataSource": "",
+				"queryCondition": {},
+				"imageUrl": "images/1.jpg",
+				"linkUrl": "http://www.baidu.com",
+				"linkType": "new",
+				"page": "",
+				"pageSize": ""
+			},
+			"children": {}
+		}, {
+			"id": "linkArea_item6",
+			"name": "链接区域6",
+			"title": "链接区域6",
+			"config": true,
+			"header": {
+				"title": "",
+				"linkUrl": "",
+				"linkType": ""
+			},
+			"body": {
+				"id": "",
+				"dataSource": "",
+				"queryCondition": {},
+				"imageUrl": "images/1.jpg",
+				"linkUrl": "http://www.baidu.com",
+				"linkType": "new",
+				"page": "",
+				"pageSize": ""
+			},
+			"children": {}
+		}, {
+			"id": "linkArea_item7",
+			"name": "链接区域7",
+			"title": "链接区域7",
+			"config": true,
+			"header": {
+				"title": "",
+				"linkUrl": "",
+				"linkType": ""
+			},
+			"body": {
+				"id": "",
+				"dataSource": "",
+				"queryCondition": {},
+				"imageUrl": "images/1.jpg",
+				"linkUrl": "http://www.baidu.com",
+				"linkType": "new",
+				"page": "",
+				"pageSize": ""
+			},
+			"children": {}
+		}]
+	}, {
+		"id": "serviceArea",
+		"name": "便民服务",
+		"title": "便民服务",
+		"config": true,
+		"body": {
+		},
+		"children": [{
+			"id": "serviceArea_item1",
+			"name": "便民服务1",
+			"title": "网上咨询",
+			"config": true,
+			"header": {
+				"title": "",
+				"linkUrl": "",
+				"linkType": ""
+			},
+			"body": {
+				"id": "",
+				"dataSource": "",
+				"queryCondition": {},
+				"imageUrl": "images/1.jpg",
+				"linkUrl": "http://www.baidu.com",
+				"linkType": "new",
+				"page": "",
+				"pageSize": ""
+			},
+			"children": {}
+		}, {
+			"id": "serviceArea_item2",
+			"name": "便民服务2",
+			"title": "就医挂号",
+			"config": true,
+			"header": {
+				"title": "",
+				"linkUrl": "",
+				"linkType": ""
+			},
+			"body": {
+				"id": "",
+				"dataSource": "",
+				"queryCondition": {},
+				"imageUrl": "images/2.jpg",
+				"linkUrl": "http://www.baidu.com",
+				"linkType": "new",
+				"page": "",
+				"pageSize": ""
+			},
+			"children": {}
+		}, {
+			"id": "serviceArea_item3",
+			"name": "便民服务3",
+			"title": "就医指南",
+			"config": true,
+			"header": {
+				"title": "",
+				"linkUrl": "",
+				"linkType": ""
+			},
+			"body": {
+				"id": "",
+				"dataSource": "",
+				"queryCondition": {},
+				"imageUrl": "images/3.jpg",
+				"linkUrl": "http://www.baidu.com",
+				"linkType": "new",
+				"page": "",
+				"pageSize": ""
+			},
+			"children": {}
+		}, {
+			"id": "serviceArea_item4",
+			"name": "便民服务4",
+			"title": "资料下载",
+			"config": true,
+			"header": {
+				"title": "",
+				"linkUrl": "",
+				"linkType": ""
+			},
+			"body": {
+				"id": "",
+				"dataSource": "",
+				"queryCondition": {},
+				"imageUrl": "images/1.jpg",
+				"linkUrl": "http://www.baidu.com",
+				"linkType": "new",
+				"page": "",
+				"pageSize": ""
+			},
+			"children": {}
+		}, {
+			"id": "serviceArea_item5",
+			"name": "便民服务5",
+			"title": "许可查询",
+			"config": true,
+			"header": {
+				"title": "",
+				"linkUrl": "",
+				"linkType": ""
+			},
+			"body": {
+				"id": "",
+				"dataSource": "",
+				"queryCondition": {},
+				"imageUrl": "images/1.jpg",
+				"linkUrl": "http://www.baidu.com",
+				"linkType": "new",
+				"page": "",
+				"pageSize": ""
+			},
+			"children": {}
+		}, {
+			"id": "serviceArea_item6",
+			"name": "便民服务6",
+			"title": "领导信箱",
+			"config": true,
+			"header": {
+				"title": "",
+				"linkUrl": "",
+				"linkType": ""
+			},
+			"body": {
+				"id": "",
+				"dataSource": "",
+				"queryCondition": {},
+				"imageUrl": "images/1.jpg",
+				"linkUrl": "http://www.baidu.com",
+				"linkType": "new",
+				"page": "",
+				"pageSize": ""
+			},
+			"children": {}
+		}, {
+			"id": "serviceArea_item7",
+			"name": "便民服务7",
+			"title": "办事指南",
+			"config": true,
+			"header": {
+				"title": "",
+				"linkUrl": "",
+				"linkType": ""
+			},
+			"body": {
+				"id": "",
+				"dataSource": "",
+				"queryCondition": {},
+				"imageUrl": "images/1.jpg",
+				"linkUrl": "http://www.baidu.com",
+				"linkType": "new",
+				"page": "",
+				"pageSize": ""
+			},
+			"children": {}
+		}]
+	}]
+}

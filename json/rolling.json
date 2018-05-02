@@ -1,0 +1,32 @@
+{
+	"success": true,
+	"valid": true,
+	"message": "",
+	"data": [{
+		"rollingContent": [{
+			"rollingLink": "#",
+			"rollingText": "1111111111111111111111"
+		}, {
+			"rollingLink": "#",
+			"rollingText": "2222222222222222222222"
+		}, {
+			"rollingLink": "#",
+			"rollingText": "3333333333333333333333"
+		}, {
+			"rollingLink": "#",
+			"rollingText": "4444444444444444444444"
+		}, {
+			"rollingLink": "#",
+			"rollingText": "5555555555555555555555"
+		}, {
+			"rollingLink": "#",
+			"rollingText": "6666666666666666666666"
+		}, {
+			"rollingLink": "#",
+			"rollingText": "7777777777777777777777"
+		}, {
+			"rollingLink": "#",
+			"rollingText": "8888888888888888888888"
+		}]
+	}]
+}

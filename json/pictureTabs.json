@@ -1,0 +1,29 @@
+{
+	"success": true,
+	"valid": true,
+	"message": "",
+	"data": {
+		"linkUrl": "new",
+		"items": [{
+			"title": "测试测试测试测试测试测试测试测试测试测试1",
+			"picturePath": "images/1.jpg",
+			"pictureUrl": "http://www.baidu.com"
+		}, {
+			"title": "测试测试测试测试测试测试测试测试测试测试2",
+			"picturePath": "images/3.jpg",
+			"pictureUrl": "http://www.baidu.com"
+		}, {
+			"title": "测试测试测试测试测试测试测试测试测试测试3",
+			"picturePath": "images/2.jpg",
+			"pictureUrl": "http://www.baidu.com"
+		}, {
+			"title": "测试测试测试测试测试测试测试测试测试测试3",
+			"picturePath": "images/2.jpg",
+			"pictureUrl": "http://www.baidu.com"
+		}, {
+			"title": "测试测试测试测试测试测试测试测试测试测试3",
+			"picturePath": "images/2.jpg",
+			"pictureUrl": "http://www.baidu.com"
+		}]
+	}
+}

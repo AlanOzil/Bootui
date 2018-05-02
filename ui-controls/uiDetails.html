@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/bootUI.css" />
+    <!-- 依赖库 手机调试的js引用顺序如下 -->
+    <script src="../js/jquery-1.12.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/app/common.js"></script>
+    <script src="../js/plugins/baidu_share.js"></script>
+</head>
+<body>
+    <div class="details-panel" id="details">
+    	
+    </div>
+    <script src="../js/app/details.js"></script>
+    <script>
+		var uiDetails = detailsInformation({
+			// url: "../json/public_opinion_2_1.json",
+			id: "#details",
+			url: "../json/details.json",
+			otherBind: function() {
+
+			}
+		});
+    </script>
+</body>
+</html>

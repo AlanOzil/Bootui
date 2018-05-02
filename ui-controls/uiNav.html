@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/bootUI.css" />
+    <!-- 依赖库 手机调试的js引用顺序如下 -->
+    <script src="../js/jquery-1.12.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/app/common.js"></script>
+    <style>
+    </style>
+</head>
+<body>
+    <div class="nav_panel" id="nav">
+    	
+    </div>
+    <script src="../js/app/bootui.js"></script>
+    <script>
+        var dataSource = [{
+            title: "首页",
+            linkUrl: "#",
+            linkType: "current",
+            type: "link",
+            imageUrl: "../images/icon1.png"
+        }, {
+            title: "展示窗",
+            linkUrl: "#",
+            linkType: "current",
+            type: "link",
+            imageUrl: "../images/icon2.png"
+        },{
+            title: "首页",
+            linkUrl: "#",
+            linkType: "current",
+            type: "link",
+            imageUrl: "../images/icon1.png"
+        }, {
+            title: "展示窗",
+            linkUrl: "#",
+            linkType: "current",
+            type: "link",
+            imageUrl: "../images/icon2.png"
+        },{
+            title: "首页",
+            linkUrl: "#",
+            linkType: "current",
+            type: "link",
+            imageUrl: "../images/icon1.png"
+        }, {
+            title: "展示窗",
+            linkUrl: "#",
+            linkType: "current",
+            type: "link",
+            imageUrl: "../images/icon2.png"
+        }]
+        var uiNav = bootui.nav({
+            id: "#nav",
+            dataSource: dataSource,
+            hover: true,
+            height: 0, 
+            width: 0, 
+            callback: function(e, i){
+                console.log(i);
+            }
+        });
+    </script>
+</body>
+</html>

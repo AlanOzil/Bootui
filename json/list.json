@@ -1,0 +1,90 @@
+{
+	"success": true,
+	"valid": true,
+	"message": "",
+	"data": [{
+		"icon": "glyphicon-info-sign",
+		"content": "Cras justo odio",
+		"badge": "14",
+		"badgeStyle": "bubble",
+		"linkUrl": "http://www.baidu.com",
+		"linkType": "new",
+		"active": true
+	},{
+		"icon": "glyphicon-info-sign",
+		"content": "Cras justo odio",
+		"badge": "14",
+		"badgeStyle": "bubble",
+		"listStyle": "list-group-item-success",
+		"linkUrl": "http://www.baidu.com",
+		"linkType": "current",
+		"title": "List group item heading"
+	},{
+		"icon": "glyphicon-info-sign",
+		"content": "Cras justo odio",
+		"badge": "14",
+		"badgeStyle": "bubble",
+		"listStyle": "list-group-item-info",
+		"linkUrl": "http://www.baidu.com",
+		"linkType": "current",
+		"title": "List group item heading"
+	},{
+		"icon": "glyphicon-info-sign",
+		"content": "Cras justo odio",
+		"badge": "14",
+		"badgeStyle": "bubble",
+		"listStyle": "list-group-item-warning",
+		"linkUrl": "http://www.baidu.com",
+		"linkType": "current",
+		"title": "List group item heading"
+	},{
+		"icon": "glyphicon-info-sign",
+		"content": "Cras justo odio",
+		"badge": "14",
+		"badgeStyle": "bubble",
+		"listStyle": "list-group-item-danger",
+		"linkUrl": "http://www.baidu.com",
+		"linkType": "current",
+		"title": "List group item heading"
+	},{
+		"icon": "glyphicon-info-sign",
+		"content": "Cras justo odio",
+		"badge": "14",
+		"badgeStyle": "bubble",
+		"linkUrl": "http://www.baidu.com",
+		"linkType": "current",
+		"title": "List group item heading"
+	},{
+		"icon": "glyphicon-info-sign",
+		"content": "Cras justo odio",
+		"badge": "14",
+		"badgeStyle": "bubble",
+		"linkUrl": "http://www.baidu.com",
+		"linkType": "current",
+		"title": "List group item heading"
+	},{
+		"icon": "glyphicon-info-sign",
+		"content": "Cras justo odio",
+		"badge": "14",
+		"badgeStyle": "bubble",
+		"linkUrl": "http://www.baidu.com",
+		"linkType": "current",
+		"title": "List group item heading"
+	},{
+		"icon": "glyphicon-info-sign",
+		"content": "Cras justo odio",
+		"badge": "14",
+		"badgeStyle": "bubble",
+		"linkUrl": "http://www.baidu.com",
+		"linkType": "current",
+		"title": "List group item heading"
+	},{
+		"icon": "glyphicon-info-sign",
+		"content": "Cras justo odio",
+		"badge": "14",
+		"badgeStyle": "bubble",
+		"linkUrl": "http://www.baidu.com",
+		"linkType": "current",
+		"title": "List group item heading"
+	}]
+}

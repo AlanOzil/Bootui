@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/bootUI.css" />
+    <!-- 依赖库 手机调试的js引用顺序如下 -->
+    <script src="../js/jquery-1.12.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/app/common.js"></script>
+    <script src="../api/bootui.js"></script>
+</head>
+<body>
+    <div class="multilevel_menu">
+        <div class="menu_title">
+            <span>信息公开</span>
+        </div>
+        <div id="multilevelMenu"></div>              
+    </div>
+    <script src="../js/app/multilevelMenu.js"></script>
+    <script>
+        var multilevelMenu = bootui.multiMenu({
+        	id: "#multilevelMenu",
+        	url: "../json/multilevelMenu.json",
+        	dataSource: {}, //没有URL请求时必须要有一个dataSourc
+        	onLoad: function() {}, //初始化数据回调
+        	callback: function() {}, //菜单点击之后的回调
+        });
+    </script>
+</body>
+</html>

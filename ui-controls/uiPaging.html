@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/bootUI.css" />
+    <!-- 依赖库 手机调试的js引用顺序如下 -->
+    <script src="../js/jquery-1.12.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/app/common.js"></script>
+</head>
+<body>
+    <div class="paging-panel" id="paging">            
+    </div>
+    <script src="../js/app/paging.js"></script>
+    <script>
+        var uiPaging = paging({
+        	url: "../json/paging.json", //请求地址，必填
+        	id: "#paging", //父元素ID，必填
+        	parameters: { //分页传参
+        		pageNo: 1, //默认初始化第一页
+        		pageSize: 6, //每页显示总条数，默认4,
+        		letterTitle: '',
+        		moduleCode: 'LDXX' //'LDXX'            
+        	},
+        	titleShow: true, //分页列表对应的头部标题显示否        
+        	titleText: ['图书感悟', '', ''], //分页对应标题栏，必填
+        	maxPage: 5, //每次最多加载多少页，默认5
+        	titleBackgroundColor: '#DC2E2F', //默认为#0068b7
+        	pageWidth: 1200, //默认1200
+        	buttonShow: true,
+        	dataFun: function(data, i, result) { //三个回调参数,逐条数据，序号，总数据
+        		if (!data) return;
+        		// var dataHtml = '<li class="clearfix">' + '<span class="list_num">' + data.statusName + '</span>' + '<span class="list_date">' + formatDate(data.createTime, "yyyy-MM-dd") + '</span>' + '<a id="' + data.id + '">' + data.letterTitle + '</a>' + '</li>';
+                var dataHtml = '<li><a title="'+data.text+'" href="'+data.url+'" target="_blank">'+data.text+'</a><span>'+data.date+'</span></li>'
+        		return dataHtml;
+        	},
+        	pageFun: function(i) {
+        		var pageHtml = '<li class="pageNum">' + i + '</li>';
+        		return pageHtml;
+        	},
+        	otherBind: function(_this) { //事件绑定回调,this指向函数内部paging对象
+        		
+        	},
+        	beforeInit: function(result, that) { //result为数据，that指向函数内部paging对象
+        		//分页前的回调，方法内部默认当前页数据结构为data = result.data,数据结构不同需要更改
+        	},
+        	dataSource: {},//数据源,
+        	callback: function(_this) {} //点击回调      
+        });
+    </script>
+</body>
+</html>

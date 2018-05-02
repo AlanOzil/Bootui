@@ -1,0 +1,16 @@
+{
+	"success": true,
+	"valid": true,
+	"message": "",
+	"data": {
+		"pictureList": [{
+			"picturePath": "images/1.png",
+			"linkUrl": "http://www.baidu.com",
+			"linkType": "current"
+		},{
+			"picturePath": "images/1.png",
+			"linkUrl": "http://www.baidu.com",
+			"linkType": "current"
+		}]
+	}
+}

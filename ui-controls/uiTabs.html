@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/bootUI.css" />
+    <!-- 依赖库 手机调试的js引用顺序如下 -->
+    <script src="../js/jquery-1.12.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/app/common.js"></script>
+    <style>
+		.tabs{
+			width: 100%;
+            padding: 0 10px;
+			margin: 0 auto;
+			background-color: transparent;
+			position: relative;	
+		}
+        @media screen and (min-width: 768px) {
+            .tabs{
+                width: 1000px;
+            }
+        }
+
+		.tabs_title{
+			height: 50px;
+			line-height: 50px;
+			font-size: 20px;
+			text-indent: 15px;
+		}
+    </style>
+</head>
+<body>
+    <div class="tabs_panel" id="tabs">
+        <div class="tabs">
+            <div class="tabs_title">
+                新闻
+            </div>
+            <div class="tabs_module">
+                <div class="tabs_selector" id="tabNav">
+                    <ul class="nav nav-tabs">
+                        <li role="presentation" class="active"><a href="#">Home</a></li>
+                        <li role="presentation"><a href="#">Profile</a></li>
+                    </ul>
+                </div>
+                <div class="tabs_containers" id="tabMain">
+                    <div class="tabs_main active">1</div>
+                    <div class="tabs_main">2</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/app/tabs.js"></script>
+    <script>
+        var uiTabs = tabs({
+            id: "#tabMain",
+            menu: "#tabNav",
+            style:  "pills",
+            direction: "vertical",
+            average: true,
+            height: "200",
+            autoCarousel: true
+        });
+        // uiTabs.to(1);
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+	"success": true,
+	"valid": true,
+	"message": "",
+	"data": {
+		"pictureList": [{
+			"caption": "测试内容1",
+			"picturePath": "images/1.jpg",
+			"linkUrl": "http://www.baidu.com",
+			"linkType": "new"
+		}, {
+			"caption": "测试内容2",
+			"picturePath": "images/2.jpg",
+			"linkUrl": "http://www.baidu.com",
+			"linkType": "new"
+		}, {
+			"caption": "测试内容3",
+			"picturePath": "images/3.jpg",
+			"linkUrl": "http://www.baidu.com",
+			"linkType": "current"
+		}]
+	}
+}

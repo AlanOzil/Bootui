@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/bootUI.css" />
+    <!-- 依赖库 手机调试的js引用顺序如下 -->
+    <script src="../js/jquery-1.12.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/app/common.js"></script>
+    <style>
+        .carousel_logo{
+            height: 50px;
+        }
+    </style>
+    <style>
+        .carousel_panel{
+            width: 100%;
+            height: 470px;
+            margin: 0 auto;
+            background-color: transparent;
+            position: relative;
+        }
+        @media screen and (min-width: 768px) {
+            .carousel_panel{
+                width: 1000px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel_panel" id="carousel">
+    	
+    </div>
+    <script src="../js/app/bootui.js"></script>
+    <script>
+        var uiCarousel = bootui.carousel({
+            id: "#carousel",
+            url: "../json/carousel.json",
+            pictureHeight: "400",
+            width: "0",
+            titleHeight: 70,
+            position: "center",
+        });
+    </script>
+</body>
+</html>
